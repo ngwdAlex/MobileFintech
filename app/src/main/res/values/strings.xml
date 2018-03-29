@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MobileFintech</string>
+    <string-array name="ddlSpendingBehave">
+        <item>Normal</item>
+        <item>Comfortable</item>
+        <item>Luxurious</item>
+    </string-array>
+</resources>

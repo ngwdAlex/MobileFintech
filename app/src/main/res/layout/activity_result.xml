@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexng.mobilefintech.Result">
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_toEndOf="@+id/lblAge"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/lblAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:text="Age :" />
+
+    <TextView
+        android:id="@+id/lblRetireAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtAge"
+        android:text="Retire Age :" />
+
+    <TextView
+        android:id="@+id/txtRetireAge"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAge"
+        android:layout_toEndOf="@+id/lblRetireAge" />
+
+    <TextView
+        android:id="@+id/lblYearIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblRetireAge"
+        android:text="Years of income for retirement :" />
+
+    <TextView
+        android:id="@+id/txtYearIncome"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRetireAge"
+        android:layout_toEndOf="@+id/lblYearIncome" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:layout_weight="1"
+        android:text="the future value of your desired monthly income when you reach " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-146dp"
+        android:layout_weight="1"
+        android:text="Factoring an annual inflation rate of 4 %," />
+
+    <TextView
+        android:id="@+id/lblAgeResult"
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="86dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="120dp"
+        android:text="is" />
+
+    <TextView
+        android:id="@+id/txtDesireIncome"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblAgeResult"
+        android:layout_toEndOf="@+id/txtAge" />
+
+</RelativeLayout>
